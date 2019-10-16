@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/glyphicons-halflings-regular.eot" rel="stylesheet">   
+    <link href ="css/styles.css" rel="stylesheet">
+    <title></title>
+   </head>
+
+   <body>
+
+   	<nav class="navbar navbar-default navbar-fixed-top hidden-lg">
+		<div class="container-fluid nav-new-color">
+			   <div class="navbar-header nav-new-color">
+
+			      <button type="button" class="navbar-toggle toggle-hover collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="border:none;">
+			         <span class="sr-only">Toggle navigation</span>
+               <span class="white" style="font-size: 20px;">Меню</span>
+               <span class="caret white"></span>
+			         <!--<span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>-->
+			      </button>
+
+			      <a class="navbar-brand small-logo" href="http://www.weberest.com/bg/">
+              <img alt="Brand" src="pics/logo-small.png" class="small-logo">
+            </a>
+        
+             <a href="#" class="dropdown-toggle opt-position visible-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-cog white"></span>
+                <span class="caret white"></span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-color dropdown-opt">
+                <li><a href="#">Цени за доставка</a></li>
+                <li><a href="#">Смяна на парола</a></li>
+                <li><a href="#">Изход</a></li>
+              </ul>
+
+			   </div>
+			    <div id="navbar" class="navbar-collapse collapse">
+			        <ul class="nav navbar-nav nav-color-white">  
+			            <li class="dropdown">
+			              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+			              	<span class="glyphicon glyphicon-home offset"></span>
+			              	Начало 
+                      <span class="caret"></span>
+			              </a>
+			              <ul class="dropdown-menu dropdown-menu-color">
+			                <li><a href="index.html">Начало Админ</a></li>
+			                <li><a href="#">Начало Магазин</a></li>
+                      <li role="separator" class="divider"></li>
+			              </ul>
+			            </li>
+			            <li class="dropdown">
+			              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+			              	<span class="glyphicon glyphicon-shopping-cart offset"></span>
+			              	Поръчки 
+                      <span class="caret"></span>
+			              </a>
+			              <ul class="dropdown-menu dropdown-menu-color">
+			                <li><a href="#">Нови</a></li>
+			                <li><a href="#">Всички</a></li>
+			                <li><a href="#">Списък потребители</a></li>
+			                <li><a href="#">Списък промо кодове</a></li>
+                      <li role="separator" class="divider"></li>
+			              </ul>
+			            </li>
+			            <li class="dropdown">
+			              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+			              	<span class="glyphicon glyphicon-barcode offset"></span>
+			              	Продукти &#38; Марки 
+                      <span class="caret"></span></a>
+			              <ul class="dropdown-menu dropdown-menu-color">
+			                <li><a href="#">Добави продукт</a></li>
+			                <li><a href="#">Списък продукти</a></li>
+			                <li><a href="#">Каталози</a></li>
+			                <li><a href="#">Групи сродни продукти</a></li>
+			                <li><a href="#">Добави марка</a></li>
+			                <li><a href="#">Списък марки</a></li>
+                      <li role="separator" class="divider"></li>
+			        	    </ul>
+			            </li>	
+
+			            <li class="dropdown">
+			              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+			              	 <span class="glyphicon glyphicon-file offset"></span>
+			              	 Страници 
+                       <span class="caret"></span>
+			              </a>
+			              <ul class="dropdown-menu dropdown-menu-color">
+			                <li><a href="#">Качване на банери</a></li>
+			                <li><a href="#">Оформление</a></li>
+			                <li><a href="#">Начална страница</a></li>
+			                <li><a href="#">Доставка</a></li>
+			                <li><a href="#">За нас PimpMyMobile.BG</a></li>
+			                <li><a href="#">Контакти</a></li>
+			                <li><a href="#">Помощ</a></li>
+			                <li><a href="#">Общи условия</a></li>
+			                <li><a href="#">Вашите впечатления</a></li>
+			                <li><a href="#">БЛОГ</a></li>
+			                <li><a href="#">Ваучер за отстъпка</a></li>
+			                <li><a href="#">Отстъпки</a></li>
+			                <li><a href="#">Количка</a></li>
+			                <li><a href="#">Продукти</a></li>
+			                <li><a href="#">Търсене</a></li>
+                      <li role="separator" class="divider"></li>
+			              </ul>
+			            </li>	
+			           		         		         
+			        </ul>
+			        <ul class="nav navbar-nav navbar-right nav-color-white visible-sm visible-md">
+			          	<li class="dropdown">
+                    <a href="#" class="dropdown-toggle opt-wide" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      <span class="glyphicon glyphicon-cog white"></span>
+                      <span class="caret white"></span>
+                    </a>
+           
+                    <ul class="dropdown-menu dropdown-menu-color">
+                      <li><a href="#">Цени за доставка</a></li>
+                      <li><a href="#">Смяна на парола</a></li>
+                      <li><a href="#">Изход</a></li>
+                    </ul>
+			            </li>
+			        </ul>
+				</div><!--nav-collapse -->
+		</div><!--container-->
+	</nav>
+
+   	<div class="page-header page-header-home visible-lg">
+      <a href="http://www.weberest.com/bg/">
+   		   <img src="http://pmm.easyemall.com/images/adminlogo.jpg">
+      </a>
+   	</div>
+   		<div class="container">
+   			<div class="row content-margin">
+   				<div class="col-md-3 visible-lg">
+   					  <div class="panel panel-primary">
+          				<div class="panel-heading">
+             				<span class="glyphicon glyphicon-home offset"></span>
+            				<h3 class="panel-title">Начални страници</h3>
+          				</div>
+          				<div class="panel-body">
+          					<a href = "index.html"><u>Начало Админ</u></a><br>
+          					<a href = "#"><u>Начало Магазин</u></a>
+          				</div>
+        			</div>
+
+			        <div class="panel panel-primary">
+			          <div class="panel-heading">
+			          <span class="glyphicon glyphicon-shopping-cart offset"></span>
+			            <h3 class="panel-title">Поръчки</h3>
+			          </div>
+			          <div class="panel-body">
+				          <a href = "#"><u>Нови</u></a><br>
+				          <a href = "#"><u>Всички</u></a><br>
+				          <a href = "#">
+				          	<!--<span class="glyphicon glyphicon-user offset"></span>-->
+				          	<u>Списък потребители</u>
+				          </a><br>
+				          <a href = "#"><u>Списък промо кодове</u></a>
+			          </div>
+			        </div>
+
+			        <div class="panel panel-primary">
+			          <div class="panel-heading">
+			          <span class="glyphicon glyphicon-barcode offset"></span>
+			            <h3 class="panel-title">Продукти &#38; Марки</h3>
+			          </div>
+			          <div class="panel-body">
+				          <a href = "#"><u>Добави продукт</u></a><br>
+				          <a href = "#"><u>Списък продукти</u></a><br>
+				          <a href = "#"><u>Каталози</u></a><br>
+				          <a href = "#"><u>Групи сродни продукти</u></a><br>
+				          <a href = "#"><u>Добави марка</u></a><br>
+			          	  <a href = "#"><u>Списък марки</u></a>
+			          </div>
+			        </div>
+
+			        <div class="panel panel-primary">
+			          <div class="panel-heading">
+			          <span class="glyphicon glyphicon-file offset"></span>
+			            <h3 class="panel-title">Страници</h3>
+			          </div>
+			          <div class="panel-body">
+				          <a href = "#"><u>Качване на банери</u></a><br>
+				          <a href = "#"><u>Оформление</u></a><br>
+				          <a href = "#"><u>Начална страница</u></a><br>
+				          <a href = "#"><u>Доставка</u></a><br>
+				          <a href = "#"><u>За нас PimpMyMobile.BG</u></a><br>
+				          <a href = "#"><u>Контакти</u></a><br>
+				          <a href = "#"><u>Помощ</u></a><br>
+				          <a href = "#"><u>Общи условия</u></a><br>
+				          <a href = "#"><u>Вашите впечатления</u></a><br>
+				          <a href = "#"><u>БЛОГ</u></a><br>
+				          <a href = "#"><u>Ваучер за отстъпка</u></a><br>
+				          <a href = "#"><u>Отстъпки</u></a><br>
+				          <a href = "#"><u>Количка</u></a><br>
+				          <a href = "#"><u>Продукти</u></a><br>
+				          <a href = "#"><u>Търсене</u></a><br>
+			          </div>
+			        </div>  
+
+			        <div class="panel panel-primary">
+			          <div class="panel-heading">
+			             <span class="glyphicon glyphicon-cog offset"></span>
+			             <h3 class="panel-title">Системни</h3>
+			          </div>
+			          <div class="panel-body">
+				          <a href = "#"><u>Цени за доставка</u></a><br>
+				          <a href = "#"><u>Смяна на парола</u></a><br>
+				          <a href = "#"><u>Изход</u></a><br>
+			          </div>
+			        </div>
+   				</div>
+
+   				<div class="col-lg-9 col-md-12 col-margin-top">
+   					<div class="row">
+   						<div class="col-md-9 col-md-offset-1-new">
+   							<div class="row">
+   								<div class="col-xs-6 col-xs-6-home col-md-3 col-sm-4 col-sm-4-home" style="text-align:center;">
+                    <p class="line-height-statistics">
+                      <a href="#" class="btn btn-default btn-lg btn-links-statistics">
+                        Поръчки от днес<br><br>
+                        <span style="color: black;">0</span>
+                      </a>
+                    </p>
+   								</div>
+
+        					<div class=" col-xs-6 col-xs-6-home col-md-3 col-sm-4 col-sm-4-home" style="text-align:center;">
+        						<p class="line-height-statistics">
+                      <a href="#" class="btn btn-default btn-lg btn-links-statistics">
+                        Поръчки от вчера<br><br>
+                        <span style="color: black;">0</span>
+                      </a>
+                    </p>
+        					</div>
+
+        					<div class="col-xs-6 col-xs-6-home col-md-3 col-sm-4 col-sm-4-home" style="text-align:center;">
+        						<p class="line-height-statistics">
+                      <a href="#" class="btn btn-default btn-lg btn-links-statistics">
+                        Този месец<br><br>
+                        <span style="color: black;">0</span>
+                      </a>
+                    </p>
+        					</div>
+
+    							<div class="col-xs-6 col-xs-6-home col-md-3 col-sm-4 col-sm-4-home" style="text-align:center;">
+    								<p class="line-height-statistics">
+                      <a href="#" class="btn btn-default btn-lg btn-links-statistics">
+                        Преден месец<br><br>
+                       <span style="color: black;">0</span>
+                      </a>
+                    </p>
+    							</div>
+       					
+
+   							
+   								<div class="col-xs-6 col-xs-6-home col-md-3 col-sm-4 col-sm-4-home" style="text-align:center;">
+   									<p class="line-height-statistics">
+                      <a href="#" class="btn btn-default btn-lg btn-links-statistics">
+                        Активни продукти<br><br>
+                        <span style="color: black;">2491</span>
+                      </a>
+                    </p>
+   								</div>
+
+   								<div class="col-xs-6 col-xs-6-home col-md-3 col-sm-4 col-sm-4-home" style="text-align:center;">
+   									<p class="line-height-statistics">
+                      <a href="#" class="btn btn-default btn-lg btn-links-statistics">
+                        Неактивни продукти<br><br>
+                        <span style="color: black;">269</span>
+                      </a>
+                    </p>
+   								</div>
+
+   								<div class="col-xs-6 col-xs-6-home col-md-3 col-sm-4 col-sm-4-home" style="text-align:center;">
+   									<p class="line-height-statistics">
+                      <a href="#" class="btn btn-default btn-lg btn-links-statistics">
+                        Брой категории<br><br>
+                        <span style="color: black;">52</span>
+                      </a>
+                    </p>
+   								</div>
+
+   								<div class="col-xs-6 col-xs-6-home col-md-3 col-sm-4 col-sm-4-home" style="text-align:center;">
+   									<p class="line-height-statistics">
+                      <a href="#" class="btn btn-default btn-lg btn-links-statistics">
+                        Брой групи<br><br>
+                        <span style="color: black;">291</span>
+                      </a>
+                    </p>
+   								</div>
+                </div>
+                  <div class="row">
+    			          <div class="col-xs-6 col-xs-6-home col-md-3 col-sm-3" style="text-align:center;">
+    			            <p>
+    			              <a href="#" class="btn btn-primary btn-lg btn-new-size">
+    			              <span class="glyphicon glyphicon-paperclip border-round-glyphicons"></span><br>
+    			              Добави Продукт
+    			              </a>
+    			            </p>
+    			          </div>
+
+    			          <div class="col-xs-6 col-xs-6-home col-md-3 col-sm-3" style="text-align:center;">
+    			          	<p>
+    			              <a href="#" class="btn btn-primary btn-lg btn-new-size">
+    			              <span class="glyphicon glyphicon-camera border-round-glyphicons"></span><br>
+    			              Добави Банер
+    			              </a>
+    			            </p>
+    			          </div>
+
+    			          <div class="col-xs-6 col-xs-6-home col-md-3 col-sm-3" style="text-align:center;">
+    			            <p>
+    			              <a href="#" class="btn btn-primary btn-lg btn-new-size">
+    			              <span class="glyphicon glyphicon-duplicate border-round-glyphicons"></span><br>
+    			              Каталози
+    			              </a>
+    			            </p>
+    			          </div>
+
+    			          <div class="col-xs-6 col-xs-6-home col-md-3 col-sm-3" style="text-align:center;">
+    			            <p>
+    			              <a href="#" class="btn btn-primary btn-lg btn-new-size">
+    			              <span class="glyphicon glyphicon-folder-open border-round-glyphicons"></span><br>
+    			              Списък Продукти
+    			              </a>
+    			            </p>
+    			          </div>
+					        </div> 							
+              </div>   
+
+   						<div class="col-md-3 visible-lg">
+   							<div class="panel panel-primary">
+					          <div class="panel-heading">
+					         	<span class="glyphicon glyphicon-star"></span>
+					            <h3 class="panel-title">Нови Модули</h3>
+					          </div>
+
+					          <div class="panel-body scroll">
+					          	  <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul15">
+					            	<span class="glyphicon glyphicon-share-alt offset"></span>
+					            	Използване на "бисквитки" (Cookies)
+					         	  </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul14">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            XML Sitemap
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul13">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Подробен имейл
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul12">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Филтри
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul11">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Моят акаунт
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul10">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Промо Кодове
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul9">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Пресмятане на цената за доставка по тегло
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul8">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Сродни продукти
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul7">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Продукти "В наличност", "По поръчка" или "Не е наличен"
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul6">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Подредба на категории и групи
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul5">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Филтър на потъчките
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul4">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Метод за разплащане по Банков път
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul3">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Метод за разплащане чрез ePay
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul2">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Метдо за разплащане чрез PayPal
+						          </a><br>
+						          <a href = "http://www.weberest.com/bg/easyemall/moduli.htm#modul1">
+						            <span class="glyphicon glyphicon-share-alt offset"></span>
+						            Електронен бюлетин - система за разплащане на имейли
+						          </a><br>
+					          </div><!--panel body-->
+					        </div> <!--panel-primary--> 
+					    </div>
+
+					  </div>
+
+   					<div class="row">
+	   					<div class="col-md-12">
+	   						<div class="panel panel-primary visible-lg visible-md visible-sm visible-full-table">
+					          <div class="panel-heading">
+					            <h3 class="panel-title">Списък на последните поръчки</h3>
+					          </div>
+					          <div class="panel-body"">
+					          	<div class="table-responsive">
+					          		<table class="table table-hover">
+					          			  <tr>
+								            <th>Id</th>
+								            <th>Дата</th>
+								            <th>Клиент</th>
+								            <th>Стойност</th>
+								            <th>Статус</th>
+								            <th>Детайли</th>
+								          </tr>
+
+								          <tr>
+								            <td>1479</td>
+								            <td>03-12-2015 19:13</td>
+								            <td>Неделчо Захариев</td>
+								            <td>35,40</td>
+								            <td>completed</td>
+								            <td><a href="#">Покажи</a></td>
+								          </tr>
+
+								          <tr>
+								            <td>1478</td>
+								            <td>03-12-2015 19:13</td>
+								            <td>Неделчо Захариев</td>
+								            <td>35,40</td>
+								            <td>completed</td>
+								            <td><a href="#">Покажи</a></td>
+								          </tr>
+
+								          <tr>
+								            <td>1479</td>
+								            <td>03-12-2015 19:13</td>
+								            <td>Неделчо Захариев</td>
+								            <td>35,40</td>
+								            <td>completed</td>
+								            <td><a href="#">Покажи</a></td>
+								          </tr>
+
+								          <tr>
+								            <td>1479</td>
+								            <td>03-12-2015 19:13</td>
+								            <td>Неделчо Захариев</td>
+								            <td>35,40</td>
+								            <td>completed</td>
+								            <td><a href="#">Покажи</a></td>
+								          </tr>
+
+
+								          <tr>
+								            <td>1479</td>
+								            <td>03-12-2015 19:13</td>
+								            <td>Неделчо Захариев</td>
+								            <td>35,40</td>
+								            <td>completed</td>
+								            <td><a href="#">Покажи</a></td>
+								          </tr>
+
+								    </table> 
+					          	</div><!--table responsive--> 
+					          </div><!--panel body-->
+	   						</div><!--panel-primary-->
+
+                <div class="panel panel-primary hidden-xs hidden-md hidden-sm hidden-lg visible-xs-table">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Списък на последните поръчки</h3>
+                    </div>
+                    <div class="panel-body">
+                      <div class="table-responsive">
+                        <table class="table table-hover" style="text-align:center;">
+                          <tr>  
+                            <th style="text-align:center;">Дата</th>
+                            <th style="text-align:center;">Клиент</th>
+                            <th style="text-align:center;">Ст-ст</th>
+                            <th style="text-align:center;">Статус</th>
+                          </tr>
+
+                         
+                          <tr onclick="getElementById('edit-1').click()" class="table-onclick">
+                            <td>03.12<br>
+                               19:13
+                            </td>
+                            <td>Неделчо <br>
+                                Захариев
+                            </td>
+                            <td>35,40</td>
+                            <td>completed</td>
+                          </tr>
+                          
+
+                          <tr onclick="getElementById('edit-1').click()" class="table-onclick">
+                            <td>03.12<br>
+                               19:13
+                            </td>
+                           <td>Неделчо <br>
+                                Захариев 
+                            </td>
+                            <td>35,40</td>
+                            <td>completed</td>
+                          </tr>
+
+                          <tr onclick="getElementById('edit-1').click()" class="table-onclick">
+                            <td>03.12<br>
+                               19:13
+                            </td>
+                            <td>Неделчо <br>
+                                Захариев 
+                            </td>
+                            <td>35,40</td>
+                            <td>completed</td>
+                          </tr>
+
+                          <tr onclick="getElementById('edit-1').click()" class="table-onclick">
+                            <td>03.12<br>
+                               19:13
+                            </td>
+                            <td>Неделчо <br>
+                                Захариев 
+                            </td>
+                            <td>35,40</td>
+                            <td>completed</td>
+                          </tr>
+
+
+                          <tr onclick="getElementById('edit-1').click()" class="table-onclick">
+                            <td>03.12<br>
+                               19:13
+                            </td>
+                            <td>Неделчо <br>
+                                Захариев 
+                            </td>
+                            <td>35,40</td>
+                            <td>completed</td>
+                          </tr>
+
+                    </table> 
+                      </div><!--table responsive--> 
+                    </div><!--panel body-->
+                  </div><!--panel-primary-->
+                </div>
+
+
+
+	   					</div><!--col-md-12 (table)-->
+	   				</div><!--row-->
+   			</div>
+   		</div>
+    </div><!--container visible-lg-->
+
+      <div class="page-footer">
+        <p class="footer-text">
+          © Weberest. All rights reserved.
+        </p>
+      </div>
+
+
+	<script src="js/jquery-3.1.0.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script> 
+  </body>
+
